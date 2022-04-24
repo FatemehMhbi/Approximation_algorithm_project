@@ -196,7 +196,7 @@ if __name__ == '__main__':
         tree, leaves,leaves_label, labels, dfs, pattern = get_input(i)
         distnace_to_opt = local_search(tree, leaves, labels, dfs, pattern)
         results.append(distnace_to_opt)
-    print('Local search found optimal sollution for ', results.count(0), ' examples out of 300 random pattern and trees.')
+    print('Local search found optimal solution for ', results.count(0), ' examples out of 300 random pattern and trees.')
     
     
     
