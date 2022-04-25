@@ -6,10 +6,10 @@ Output: A feasible extension of labels to the internal nodes of the binary tree.
 Random input examples can be generated using simulate_input.py script. \
 Local_search.py is a local search implementation of this problem, where w(s) = graph_edit_distance(s) if s is not isomorphic to a subgraph of P, 0 otherwise.
 
-Local search for finding a feasible labeling:
-1- S* = Random labeling of internal nodes of the tree
-2- t = 10
-3- While w(S*) > 0 or iterations < t:
-  For all S in N(S*):
-    If w(S) < w(S*): S*=S.
-    If w(S*) did not decrease: S* = Random labeling of internal nodes of the tree.
+Local search for finding a feasible labeling: \
+1- S* = Random labeling of internal nodes of the tree. \
+2- t = 10. \
+3- While w(S*) > 0 or iterations < t: \
+  For all S in N(S*): \
+    If w(S) < w(S*): S*=S. \
+    If w(S*) did not decrease: S* = Random labeling of internal nodes of the tree. \
