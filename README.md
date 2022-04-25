@@ -13,3 +13,10 @@ Local search for finding a feasible labeling: \
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For all S in N(S*): \
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If w(S) < w(S*): S*=S. \
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If w(S*) did not decrease: S* = Random labeling of internal nodes of the tree. \
+
+How to run using command line: \
+to generate input examples: \
+'python3.10 simulate_exapmles.py'\
+to run the local search algorithm: \
+'python3.10 Local_search.py \
+The name of the input file is hardcoded as 'random_examples.pkl'.
