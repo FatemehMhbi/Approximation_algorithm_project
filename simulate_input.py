@@ -69,10 +69,11 @@ def generate_example():
 if __name__ == '__main__':
     examples_list = {}
     # pattern, tree, leaves_labels = generate_example()
-    for i in range(3):
+    number_of_examples_to_generate = 300
+    for i in range(number_of_examples_to_generate):
         pattern, tree, leaves_labels = generate_example()
         dict_ = {'pattern': pattern, 'tree': tree, 'leaves_labels': leaves_labels}
         examples_list[i] = dict_
-    a_file = open("random_examples_3.pkl", "wb")
+    a_file = open("random_examples.pkl", "wb")
     pickle.dump(examples_list, a_file)
     a_file.close()
