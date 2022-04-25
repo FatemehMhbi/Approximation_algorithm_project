@@ -18,5 +18,5 @@ How to run using command line: \
 to generate input examples: \
 'python3.10 simulate_exapmles.py'\
 to run the local search algorithm: \
-'python3.10 Local_search.py \
+'python3.10 local_search.py \
 The name of the input file is hardcoded as 'random_examples.pkl'.
