@@ -10,6 +10,6 @@ Local search for finding a feasible labeling: \
 1- S* = Random labeling of internal nodes of the tree. \
 2- t = 10. \
 3- While w(S*) > 0 or iterations < t: \
- >For all S in N(S*): \
- &nbsp;&nbsp;If w(S) < w(S*): S*=S. \
- &nbsp;&nbsp;If w(S*) did not decrease: S* = Random labeling of internal nodes of the tree. \
+ &nbsp;&nbsp;&nbsp;For all S in N(S*): \
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If w(S) < w(S*): S*=S. \
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If w(S*) did not decrease: S* = Random labeling of internal nodes of the tree. \
